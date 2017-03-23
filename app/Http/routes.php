@@ -20,8 +20,4 @@ Route::get('servicios', function () {
 });
 
 //Route::get('admin', 'AdminController@index');
-Route::get('admin', function(){
-  $citas = citas::all();
-  dd($citas);
-return view('admin.layoutAdmin');
-});
+Route::get('admin', 'AdminController@index');

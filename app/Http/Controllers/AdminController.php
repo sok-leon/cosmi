@@ -16,8 +16,8 @@ class AdminController extends Controller
      */
     public function index()
     {
-      
-      //return view('admin.layoutAdmin',compact('citas'));
+      $citas = citas::all();
+      return view('admin.principal',compact('citas'));
     }
 
     /**
