@@ -16,7 +16,7 @@
     </ul>
   </div>
   <div class="call">
-    <h1>Tel. :<span> telefono xxxx</span></h1>
+    <h1>Tel. :<span> telefono de la empresa</span></h1>
   </div>
 </div>
 <!--- menu-wrapper div end -->
