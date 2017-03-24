@@ -11,12 +11,26 @@
 |
 */
 use App\citas;
+use App\servicios;
+use App\preguntas;
 Route::get('/', function () {
     return view('index');
 });
 
 Route::get('servicios', function () {
-    return view('cosmiatria/servicios');
+
+  $servicios = servicios::all();
+   //dd($servicios);
+  return view('cosmiatria/servicios',compact('servicios'));
+  //  return view('cosmiatria/servicios');
+});
+
+Route::get('preguntas', function () {
+
+  $preguntas = preguntas::all();
+
+  return view('cosmiatria/preguntas',compact('preguntas'));
+  //  return view('cosmiatria/servicios');
 });
 
 //Route::get('admin', 'AdminController@index');

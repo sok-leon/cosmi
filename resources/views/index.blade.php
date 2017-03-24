@@ -13,6 +13,7 @@
     <ul>
       <li><a href="index.php" class="active">Inicio</a></li>
       <li><a href="servicios.php">Servicios</a></li>
+      <li><a href="preguntas.php">Preguntas</a></li>
     </ul>
   </div>
   <div class="call">
