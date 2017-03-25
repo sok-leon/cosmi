@@ -1,4 +1,4 @@
-@extends('index')
+@extends('layout')
 @section('contenido')
 <h1> Preguntas frecuentes </h1><br>
 <ul>

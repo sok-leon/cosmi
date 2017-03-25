@@ -14,7 +14,8 @@ use App\citas;
 use App\servicios;
 use App\preguntas;
 Route::get('/', function () {
-    return view('index');
+  $servicios = servicios::all();
+    return view('cosmiatria.index',compact('servicios'));
 });
 
 Route::get('servicios', function () {
